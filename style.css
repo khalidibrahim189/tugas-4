@@ -1,0 +1,137 @@
+/*=====================
+	Navbar
+=====================*/
+
+#navs {
+	border-radius: 0;
+}
+
+/*=====================
+	Jumbotron
+=====================*/
+
+#home {
+	border-radius: 0;
+	color: white;
+	text-align: center;
+}
+
+#home h1 {
+	text-transform: uppercase;
+}
+
+/*=====================
+	Services
+=====================*/
+
+#services {
+	background-color: white;
+}
+
+#services {
+	text-align: center;
+	display: block;
+	position: relative;
+}
+
+#services .icon {
+	padding: 20px;
+	border: 3px solid #eee;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 28px;
+	overflow: hidden;
+}
+
+#services .row {
+	padding: 40px ;
+}
+
+#services .colom-4 {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#services .active {
+	background-color: tomato;
+}
+
+/*=====================
+	Stories
+=====================*/
+
+#stories {
+	background-color: whitesmoke;
+	padding: 30px 0;
+}
+
+#stories .outline {
+	outline: 1px solid black;
+}
+
+#stories .title {
+	text-align: center;
+}
+
+#stories .row {
+	margin: 0.5em;
+}
+
+#stories .colom-5 {
+	padding: 1em;
+}
+
+#stories .colom-6 {
+	padding: 0;
+}
+
+#stories .feature {
+	margin-top: 0;
+	margin-right: 0.5em;
+	margin-left: 0;
+	margin-bottom: 0.5em;
+	overflow: hidden;
+	height: 250px;
+	border: 1px solid silver;
+}
+
+#stories .feature img {
+	width: 360px;
+	height: auto;
+	padding: 1em;
+}
+
+#stories .thumb {
+	background-color: #333;
+}
+
+/*================
+	About
+==================*/
+#about{
+	text-align:center; 
+}
+#about .grid-container{
+	padding: 10px;
+	display: grid;
+	background-color: #333;
+	grid-gap: 10px;
+	color: tomato;
+}
+
+#navbar .grid-nav{
+	text-align: center;
+	background-color: #333;
+	grid-gap: 12px;
+	color: whitesmoke;
+	padding: 10px;
+}
+
+#navbar .grid-nav i{
+	left: left;
+	color: lightblue;
+	border-left: 30px;
+}
